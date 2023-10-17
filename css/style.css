@@ -1,0 +1,92 @@
+* {
+    font-family: "Poppins", sans-serif ;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem;
+    background: #121212;
+    align-items: center;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background: #007608;
+    padding: 5px;
+    text-align: center;
+    color: #fafafa;
+}
+
+.container {
+    background-color: #fafafa;
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: 0 3px 5px rgba(0,0,0, 00.5);
+    overflow: hidden;
+}
+
+
+.form {
+    padding: 18px;
+}
+
+.form-content {
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+}
+
+.form-content label {
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.form-content input{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form-content a{
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    visibility: hidden;
+}
+
+.form button {
+    background-color: #007608;
+    color: #fafafa;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1.8px solid #121212;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.form-content.error input {
+    border-color: #ff3b25;
+}
+
+.form-content.error a{
+    color: #ff3b25;
+    visibility: visible;
+}

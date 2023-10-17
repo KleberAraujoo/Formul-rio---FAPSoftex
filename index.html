@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="header">
+            <h1> Formulário </h1>
+        </section>
+
+        <form id="form" class="form">
+            <div class="form-content">
+
+                <label for="name"> Nome: </label>
+                <input type="text" id="name" placeholder="Digite seu nome..." />
+                <a> Aqui vai uma mensagem de erro</a>
+            </div>
+
+            <div class="form-content">
+                <label for="idade"> Idade: </label>
+                <input type="text" id="idade" placeholder="__/__/____" />
+                <a> Aqui vai uma mensagem de erro</a>
+            </div>
+
+            <div class="form-content">
+                <label for="salario"> Salário: </label>
+                <input type="text" id="salario" placeholder="$" />
+                <a> Aqui vai uma mensagem de erro</a>
+            </div>
+
+            <div class="form-content">
+                <label for="diploma"> Possui diploma?: </label>
+                <select name="diploma" id="diploma">
+                    <option value="yes"> Sim</option>
+                    <option value="no"> Não</option>
+                </select>
+
+                <button type="submit"> Enviar</button>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.6/jquery.inputmask.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
